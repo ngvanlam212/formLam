@@ -4,11 +4,9 @@ const declineButton = document.getElementById("decline-button");
 const acceptButton = document.getElementById("accept-button");
 
 let hasClicked;
-
-            window.onbeforeunload = function( ) {
-                if(hasClicked) return true;
-            };
-
+    window.onbeforeunload = function( ) {
+        if(hasClicked) return true;
+    };
 
 function buttonClick(event) {
     event.preventDefault();
@@ -17,9 +15,9 @@ function buttonClick(event) {
     video.play();
     videoClick();
 }
+
 function videoClick(event) {
     if(event) event.preventDefault();
-    // if not fullscreen
     const { documentElement } = document;
     if(documentElement.requestFullscreen) documentElement.requestFullscreen();
     else if(documentElement.mozRequestFullScreen) documentElement.mozRequestFullScreen();
