@@ -65,13 +65,13 @@ html {
 }
 
 #accept-button{
-    background-color: rgb(132, 94, 194);
+    background-color: rgb(0, 26, 219);
     color: #fff;
 }
 
 #decline-button {
-    color: rgb(132, 94, 194);
-    border: 2px solid rgb(132, 94, 194);
+    color: rgb(27, 11, 195);
+    border: 2px solid rgb(13, 13, 213);
 }
 
 .scare {
