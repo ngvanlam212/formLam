@@ -8,6 +8,11 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+.big-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
 
 .overlay {
     display: flex;
@@ -62,16 +67,24 @@ html {
     align-items: center;
     margin: 6px;
     cursor: pointer;
+    color: rgb(27, 11, 195);
+    border: 2px solid rgb(13, 13, 213);
 }
 
-#accept-button{
+
+#accept-button:hover{
     background-color: rgb(0, 26, 219);
     color: #fff;
 }
 
-#decline-button {
-    color: rgb(27, 11, 195);
-    border: 2px solid rgb(13, 13, 213);
+#decline-button:hover {
+    color: #fff;
+    border: 2px solid red;
+    background-color:red;
+}
+
+.overlay-button:hover {
+
 }
 
 .scare {
@@ -86,4 +99,11 @@ html {
 
 .video::-webkit-media-controls-enclosure {
     display:none !important;
+}
+
+.khuyen-cao {
+    font-size: 4px;
+   position: absolute;
+   left: 0;
+   bottom: 0;
 }
