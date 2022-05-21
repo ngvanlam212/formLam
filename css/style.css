@@ -8,6 +8,10 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+.abc {
+    width: 100%;
+}
+
 .big-img {
     width: 400px;
     height: 400px;
